@@ -1,0 +1,49 @@
+*{
+    background-color: #050813;
+}
+li{
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:visited{
+    text-decoration:none;
+    color: #ffffff;
+}
+a:hover{
+    text-decoration: none;
+    color: #c2c2c2;
+}
+a:active{
+    text-decoration: none;
+    color: #c2c2c2;
+}
+.oxbol{
+    font-family: 'Oxanium', cursive;
+}
+.oxnor{
+    font-family: 'Oxanium', cursive;
+}
+.karbol{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+.karnor{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.text-white{
+    color: white;
+}
+.text-vibe{
+    color: #3a0ca3;
+}
+.text-blue{
+    color: #4361ee
+}
+.text-silver{
+    color: #c2c2c2;
+}
+
