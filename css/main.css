@@ -1,49 +1,143 @@
 *{
-    background-color: #050813;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-li{
-    list-style-type: none;
-}
-a:link{
-    text-decoration: none;
-    color: #ffffff;
-}
-a:visited{
-    text-decoration:none;
-    color: #ffffff;
-}
-a:hover{
-    text-decoration: none;
-    color: #c2c2c2;
-}
-a:active{
-    text-decoration: none;
-    color: #c2c2c2;
-}
-.oxbol{
+.oxbol {
     font-family: 'Oxanium', cursive;
+    font-weight: 700;
 }
-.oxnor{
+.oxnor {
     font-family: 'Oxanium', cursive;
+    font-weight: 400;
 }
-.karbol{
+.karbol {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
 }
-.karnor{
+.karnor {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
 }
-.text-white{
+.text-white {
     color: white;
 }
-.text-vibe{
+.text-vibe {
     color: #3a0ca3;
 }
-.text-blue{
+.text-blue {
     color: #4361ee
 }
-.text-silver{
+.text-silver {
     color: #c2c2c2;
 }
+.navbar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: #3a0ca3; /* change to desired color */
+    border: 2px solid #1f0857;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+}
+.logo-head {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    background-color: #3a0ca3;
+}
+.navbar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    background-color: #3a0ca3;
+}
+.container {
+    position: relative;
+    top: 80px;
+    padding-bottom: 5rem;
+    background-color: #050813;
+}
+.cen-y {
+    padding: 2rem;
+}
+.footer-container {
+    background-color: #050813;
+    padding-bottom: 1rem;
 
+}
+.footer-sec {
+    position: relative;
+    padding: 3rem 0;
+    width: 100%;
+    height: 40vh;
+    color: #ffffff;
+    background-color: #050813;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-top: 4px solid #606060;
+}
+.footer-sec-2 {
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-heading {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 4rem;
+}
+.footer-heading h3 {
+    margin-bottom: 2rem;
+}
+.footer-heading a:hover {
+    font-family: Karla, sans-serif;
+    font-weight: 400;
+    transition: 0.3s ease-out;
+}
+.footer-email-form h3 {
+    margin-bottom: 2rem;
+}
+.wordpad{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#footer-email::placeholder {
+    color: #b1b1b1;
+}
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #4361ee;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+#footer-email-btn:hover{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #6d85f3;
+    outline: none;
+    border: none;
+}
